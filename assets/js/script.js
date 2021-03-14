@@ -21,7 +21,7 @@ var momentNow = moment();
 }, 100);
 
 function timeStore() {
-  var time7 = JSON.parse(localStorage.getItem("07:00 AM"));
+  var time7 = JSON.parse(localStorage.getItem("7:00 AM"));
   sevenAm.val(time7);
   var time8 = JSON.parse(localStorage.getItem("8:00 AM"));
   eightAm.val(time8);
